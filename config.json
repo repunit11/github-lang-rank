@@ -1,0 +1,13 @@
+{
+  "username": "repunit11",
+  "token": "",
+  "output": "charts/lang-rank.svg",
+  "include_forks": false,
+  "include_archived": false,
+  "org": false,
+  "show_other": false,
+  "exclude": [
+    "TeX"
+  ],
+  "top": 6
+}

@@ -1,0 +1,48 @@
+name: Weekly language rank
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  OUTPUT_PATH: charts/lang-rank.svg
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.21"
+
+      - name: Generate chart
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          go run . \
+            -username "${OWNER}" \
+            -token "${GH_TOKEN}" \
+            -output "${OUTPUT_PATH}"
+
+      - name: Commit updates
+        run: |
+          if [ -z "$(git status --porcelain "${OUTPUT_PATH}")" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${OUTPUT_PATH}"
+          git commit -m "Update language rank chart"
+          git push
