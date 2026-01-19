@@ -4,41 +4,41 @@
 <text x="28" y="46" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="20" fill="#9be36a">Most Used Languages</text>
 <rect x="28" y="70" width="584" height="14" rx="7" fill="#1b2328"/>
 <clipPath id="barClip"><rect x="28" y="70" width="584" height="14" rx="7"/></clipPath>
-<rect x="28" y="70" width="154" height="14" fill="#00ADD8" clip-path="url(#barClip)"/>
-<rect x="182" y="70" width="103" height="14" fill="#3178c6" clip-path="url(#barClip)"/>
-<rect x="285" y="70" width="92" height="14" fill="#4F5D95" clip-path="url(#barClip)"/>
-<rect x="377" y="70" width="83" height="14" fill="#f1e05a" clip-path="url(#barClip)"/>
-<rect x="460" y="70" width="75" height="14" fill="#701516" clip-path="url(#barClip)"/>
-<rect x="535" y="70" width="77" height="14" fill="#e34c26" clip-path="url(#barClip)"/>
+<rect x="28" y="70" width="155" height="14" fill="#00ADD8" clip-path="url(#barClip)"/>
+<rect x="183" y="70" width="103" height="14" fill="#3178c6" clip-path="url(#barClip)"/>
+<rect x="286" y="70" width="92" height="14" fill="#4F5D95" clip-path="url(#barClip)"/>
+<rect x="378" y="70" width="83" height="14" fill="#f1e05a" clip-path="url(#barClip)"/>
+<rect x="461" y="70" width="75" height="14" fill="#701516" clip-path="url(#barClip)"/>
+<rect x="536" y="70" width="76" height="14" fill="#e34c26" clip-path="url(#barClip)"/>
 <rect x="28" y="106" width="184" height="72" rx="12" fill="#1b2328" stroke="#2c3a42" stroke-width="1"/>
 <rect x="40" y="116" width="6" height="52" rx="3" fill="#00ADD8"/>
 <text x="56" y="134" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="16" fill="#d3dde3">Go</text>
-<text x="56" y="154" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">26.44%</text>
-<text x="56" y="170" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#6f848e">154236 bytes</text>
+<text x="56" y="154" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">26.55%</text>
+<text x="56" y="170" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#6f848e">155128 bytes</text>
 <rect x="228" y="106" width="184" height="72" rx="12" fill="#1b2328" stroke="#2c3a42" stroke-width="1"/>
 <rect x="240" y="116" width="6" height="52" rx="3" fill="#3178c6"/>
 <text x="256" y="134" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="16" fill="#d3dde3">TypeScript</text>
-<text x="256" y="154" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">17.71%</text>
+<text x="256" y="154" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">17.69%</text>
 <text x="256" y="170" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#6f848e">103315 bytes</text>
 <rect x="428" y="106" width="184" height="72" rx="12" fill="#1b2328" stroke="#2c3a42" stroke-width="1"/>
 <rect x="440" y="116" width="6" height="52" rx="3" fill="#4F5D95"/>
 <text x="456" y="134" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="16" fill="#d3dde3">PHP</text>
-<text x="456" y="154" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">15.83%</text>
+<text x="456" y="154" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">15.81%</text>
 <text x="456" y="170" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#6f848e">92357 bytes</text>
 <rect x="28" y="194" width="184" height="72" rx="12" fill="#1b2328" stroke="#2c3a42" stroke-width="1"/>
 <rect x="40" y="204" width="6" height="52" rx="3" fill="#f1e05a"/>
 <text x="56" y="222" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="16" fill="#d3dde3">JavaScript</text>
-<text x="56" y="242" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">14.24%</text>
+<text x="56" y="242" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">14.22%</text>
 <text x="56" y="258" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#6f848e">83042 bytes</text>
 <rect x="228" y="194" width="184" height="72" rx="12" fill="#1b2328" stroke="#2c3a42" stroke-width="1"/>
 <rect x="240" y="204" width="6" height="52" rx="3" fill="#701516"/>
 <text x="256" y="222" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="16" fill="#d3dde3">Ruby</text>
-<text x="256" y="242" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">12.94%</text>
+<text x="256" y="242" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">12.92%</text>
 <text x="256" y="258" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#6f848e">75451 bytes</text>
 <rect x="428" y="194" width="184" height="72" rx="12" fill="#1b2328" stroke="#2c3a42" stroke-width="1"/>
 <rect x="440" y="204" width="6" height="52" rx="3" fill="#e34c26"/>
 <text x="456" y="222" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="16" fill="#d3dde3">HTML</text>
-<text x="456" y="242" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">12.84%</text>
+<text x="456" y="242" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#93a4ac">12.82%</text>
 <text x="456" y="258" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#6f848e">74884 bytes</text>
 <text x="28" y="286" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#93a4ac">Excluded: TeX</text>
 </svg>
